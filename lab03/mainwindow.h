@@ -36,7 +36,7 @@ class MainWindow : public QMainWindow {
   uint item_max = 0;                       // 当前输入中的最大项数
   vector<BigNumber> recursion_memory;  // 记忆化数组，大小为 item_max+1
   BigNumber FibonacciRecursion(uint n);  // 使用递归方法更新记忆化数组
-                                         //快速矩阵幂方法
+  //快速矩阵幂方法
   static const uint MATRIX_MAX = 6000;  //能承受的最大项数
   BigNumber FibonacciMatrix(uint n);    // 矩阵快速幂
 };

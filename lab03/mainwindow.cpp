@@ -96,6 +96,7 @@ BigNumber MainWindow::FibonacciRecursion(uint n) {
   }
   return recursion_memory[n] = first + second;
 }
+
 //声明矩阵幂算法，定义放在 matrxi.cpp 文件
 vector<vector<BigNumber>> matrixPow(vector<vector<BigNumber>> a, int n);
 BigNumber MainWindow::FibonacciMatrix(uint n) {

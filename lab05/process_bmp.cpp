@@ -32,9 +32,7 @@ int main(int argc, char *argv[])
         if (strcmp(argv[2], "rotate") == 0)
         {
             checkArgCount(argc, 5);
-            size_t pos = size_t(-1);
-            size_t *p = &pos;
-            double angle = std::stod(std::string(argv[3]), p);
+            double angle = std::stod(std::string(argv[3]));
             bitmap.Rotate(angle / 180 * pi());
         }
         else if (strcmp(argv[2], "resize") == 0)
@@ -59,12 +57,7 @@ int main(int argc, char *argv[])
             throw PARAM_ERROR::UNKNOWN_PARAM;
         }
         bitmap.Save(argv[argc-1]);
-    }
-    catch (std::invalid_argument error){
-        std::cout << "\033[31m"
-                      << "There is invalid integer or double number."
-                      << "\033[0m" << std::endl;
-    }
+    } 
     catch (PARAM_ERROR error)
     {
         switch (error)
@@ -84,6 +77,11 @@ int main(int argc, char *argv[])
             break;
         }
         return EXIT_FAILURE;
+    }
+    catch (std::invalid_argument error){
+        std::cout << "\033[31m"
+                      << "There is invalid integer or double number."
+                      << "\033[0m" << std::endl;
     }
     catch (FILE_ERROR error)
     {
