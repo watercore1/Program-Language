@@ -1,0 +1,1 @@
+#include "OGRSimpleCurve.h"

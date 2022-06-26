@@ -1,6 +1,4 @@
-# 程序设计语言
-
-PKU 程序设计语言 作业
+# Program Language
 
 <!-- PROJECT SHIELDS -->
 [![Contributors][contributors-shield]][contributors-url]
@@ -9,54 +7,27 @@ PKU 程序设计语言 作业
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
 
-
 <!-- ABOUT THE PROJECT -->
+
 ## About The Project
+PKU Course: Program Language
 
-![Product Name Screen Shot][product-screenshot]
+There are no exams in the course, grades are determined by ten homeworks.
 
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `repo_name`
+program language: C++11
 
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-### Built With
-
-* []()
-* []()
-
-<p align="right">(<a href="#top">back to top</a>)</p>
+framework: [Qt5.15]([Qt 5.15](https://doc.qt.io/qt-5.15/))
 
 
-<!-- USAGE EXAMPLES -->
-## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-<!-- ROADMAP -->
-## ROADMAP
-
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-    - [ ] Nested Feature
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-<!-- CONTRIBUTING -->
-## Contributing
-
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-Don't forget to give the project a star! Thanks again!
-
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
+* [Pi Estimate](./lab01/README.md)
+* [GoldBach Conjecture](./lab02/README.md)
+* [Fibonacci Sequence](./lab03/README.md)
+* [Simple Polygon Search](./lab04/README.md)
+* [Bitmap Process](./lab05/README.md)
+* [Polyline Label](./lab06/README.md) 
+* [DocGIS](./lab07/README.md)
+* [OGR Geometry](./lab08/README.md)
+* [Run Length Code](./lab09/README.md)
 
 
 <!-- LICENSE -->
@@ -68,16 +39,15 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 
 
-
 <!-- MARKDOWN LINKS & IMAGES -->
-[contributors-shield]: https://img.shields.io/github/contributors/watercore1/repo_name.svg?style=flat-square
-[contributors-url]: https://github.com/watercore1/repo_name/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/watercore1/repo_name.svg?style=flat-square
-[forks-url]: https://github.com/watercore1/repo_name/network/members
-[stars-shield]: https://img.shields.io/github/stars/watercore1/repo_name.svg?style=flat-square
-[stars-url]: https://github.com/watercore1/repo_name/stargazers
-[issues-shield]: https://img.shields.io/github/issues/watercore1/repo_name.svg?style=flat-square
-[issues-url]: https://img.shields.io/github/issues/watercore1/repo_name.svg
-[license-shield]: https://img.shields.io/github/license/watercore1/repo_name.svg?style=flat-square
-[license-url]: https://github.com/watercore1/repo_name/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/watercore1/Program-Language.svg?style=flat-square
+[contributors-url]: https://github.com/watercore1/Program-Language/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/watercore1/Program-Language.svg?style=flat-square
+[forks-url]: https://github.com/watercore1/Program-Language/network/members
+[stars-shield]: https://img.shields.io/github/stars/watercore1/Program-Language.svg?style=flat-square
+[stars-url]: https://github.com/watercore1/Program-Language/stargazers
+[issues-shield]: https://img.shields.io/github/issues/watercore1/Program-Language.svg?style=flat-square
+[issues-url]: https://img.shields.io/github/issues/watercore1/Program-Language.svg
+[license-shield]: https://img.shields.io/github/license/watercore1/Program-Language.svg?style=flat-square
+[license-url]: https://github.com/watercore1/Program-Language/blob/master/LICENSE.txt
 [product-screenshot]: readme/screenshot.png

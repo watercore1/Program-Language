@@ -1,0 +1,1 @@
+#include "OGRMultiCurve.h"
