@@ -9,14 +9,13 @@
 
 <!-- ABOUT THE PROJECT -->
 
-## About The Project
-PKU Course: Program Language
+PKU GIS Course: Program Language
 
 There are no exams in the course, grades are determined by ten homeworks.
 
 program language: C++11
 
-framework: [Qt5.15]([Qt 5.15](https://doc.qt.io/qt-5.15/))
+framework: [Qt5.15](https://doc.qt.io/qt-5.15/)
 
 
 * [Pi Estimate](./lab01/README.md)
