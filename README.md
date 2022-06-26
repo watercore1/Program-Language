@@ -5,7 +5,6 @@
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
 
 <!-- ABOUT THE PROJECT -->
 
@@ -13,9 +12,9 @@ PKU GIS Course: Program Language
 
 There are no exams in the course, grades are determined by ten homeworks.
 
-program language: C++11
+Program language: C++11
 
-framework: [Qt5.15](https://doc.qt.io/qt-5.15/)
+Framework: [Qt5.15](https://doc.qt.io/qt-5.15/)
 
 
 * [Pi Estimate](./lab01/README.md)
@@ -34,8 +33,6 @@ framework: [Qt5.15](https://doc.qt.io/qt-5.15/)
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
 
-<p align="right">(<a href="#top">back to top</a>)</p>
-
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
@@ -48,5 +45,3 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 [issues-shield]: https://img.shields.io/github/issues/watercore1/Program-Language.svg?style=flat-square
 [issues-url]: https://img.shields.io/github/issues/watercore1/Program-Language.svg
 [license-shield]: https://img.shields.io/github/license/watercore1/Program-Language.svg?style=flat-square
-[license-url]: https://github.com/watercore1/Program-Language/blob/master/LICENSE.txt
-[product-screenshot]: readme/screenshot.png
