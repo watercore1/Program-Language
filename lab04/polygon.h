@@ -19,7 +19,7 @@ class Polygon {
   const vector<int>& GetPointIds() { return point_ids_; }
   void ComputeAttribute();
   bool IsSimple() { return is_simple_; };  // 是否为简单多边形
-  const vector<double>& GetBound() { return point_bounds_; };
+  const vector<double>& GetBound() { return mbr; };
   double GetArea() { return area_; };
   double GetLength() { return length_; };
   bool IsConvex() { return is_convex_; };
@@ -34,7 +34,7 @@ class Polygon {
   int size = 0;
   bool is_simple_ = false;
   double area_, length_;  // 面积和周长
-  vector<double> point_bounds_ = {
+  vector<double> mbr = {
       INT_MAX, INT_MIN, INT_MAX,
       INT_MIN};  // 外接多边形，按顺序依次为x左，x右，y下，y上
   bool is_convex_;  // 是否为凸多边形

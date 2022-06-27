@@ -13,14 +13,14 @@ void Polygon::ComputeAttribute() {
   if (!is_simple_) return;
   // 计算外包矩形
   for (int i = 0; i < size; i++) {
-    if (point_bounds_[0] > points[point_ids_[i]].x_)
-      point_bounds_[0] = points[point_ids_[i]].x_;
-    if (point_bounds_[1] < points[point_ids_[i]].x_)
-      point_bounds_[1] = points[point_ids_[i]].x_;
-    if (point_bounds_[2] > points[point_ids_[i]].y_)
-      point_bounds_[2] = points[point_ids_[i]].y_;
-    if (point_bounds_[3] < points[point_ids_[i]].y_)
-      point_bounds_[3] = points[point_ids_[i]].y_;
+    if (mbr[0] > points[point_ids_[i]].x_)
+      mbr[0] = points[point_ids_[i]].x_;
+    if (mbr[1] < points[point_ids_[i]].x_)
+      mbr[1] = points[point_ids_[i]].x_;
+    if (mbr[2] > points[point_ids_[i]].y_)
+      mbr[2] = points[point_ids_[i]].y_;
+    if (mbr[3] < points[point_ids_[i]].y_)
+      mbr[3] = points[point_ids_[i]].y_;
   }
   // 计算面积
   area_ = ComputeArea();
