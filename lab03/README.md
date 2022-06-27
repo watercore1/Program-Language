@@ -1,8 +1,5 @@
 # 爬楼梯
 
-<center>
-    1900012476 夏罗生
-</center>
 
 ## 斐波那契数列(Fibonacci sequence)
 

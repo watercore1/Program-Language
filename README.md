@@ -10,22 +10,22 @@
 
 PKU GIS Course: Program Language
 
-There are no exams in the course, grades are determined by ten homeworks.
+There are no exams in the course, grades are determined by ten homework.
 
 Program language: C++11
 
 Framework: [Qt5.15](https://doc.qt.io/qt-5.15/)
 
 
-* [Pi Estimate](./lab01/README.md)
-* [GoldBach Conjecture](./lab02/README.md)
-* [Fibonacci Sequence](./lab03/README.md)
-* [Simple Polygon Search](./lab04/README.md)
-* [Bitmap Process](./lab05/README.md)
-* [Polyline Label](./lab06/README.md) 
-* [DocGIS](./lab07/README.md)
-* [OGR Geometry](./lab08/README.md)
-* [Run Length Code](./lab09/README.md)
+* [$\pi$ Estimate](./lab01)
+* [Goldbach Conjecture](./lab02)
+* [Fibonacci Sequence](./lab03)
+* [Simple Polygon Search](./lab04)
+* [Bitmap Process](./lab05)
+* [Polyline Label](./lab06) 
+* [Dos GIS](./lab07)
+* [OGR Geometry](./lab08)
+* [Run Length Code](./lab09)
 
 
 <!-- LICENSE -->

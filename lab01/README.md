@@ -1,8 +1,5 @@
-# $\pi$ 值估算
+# $\pi$ Esitimate
 
-<center>
-    1900012476 夏罗生
-</center>
 
 ## Monte Carlo 算法
 
@@ -10,7 +7,7 @@
 
 Monte Carlo 算法的收敛速度很慢，时间复杂度约为 $O(10^N)$。
 
-C++ 内置类型 double 为 64 位，在十进制下的最大精度位 15 位，能够满足算法的精度要求。
+C++ 内置类型 double 为 64 位，在十进制下的最大精度位 15 位，使用 double 类型能够满足算法的精度要求。
 
 ## Leibniz 级数
 
@@ -22,7 +19,7 @@ $$
 $$
 \pi=4\sum_{k=0}^{\infty}\frac{(-1)^k}{2k+1}
 $$
-这个级数的收敛速率是次线性，100 项误差能精确到小数点后 2 位。double 类型同样能满足算法的精度要求
+这个级数的收敛速率是次线性，100 项误差能精确到小数点后 2 位。double 类型同样能满足算法的精度要求。
 
 ## Chudnovsky 公式的变式
 
@@ -35,6 +32,8 @@ $$
 由于 Chudnovsky 公式的收敛速度太快，而 C++ 最大的浮点内置类型 long double 只有 64 位，在十进制下的最大精度只有 18 位，远远不能满足我们的需求。需要自定义高精度的浮点数 Big Float。
 
 ## Big Float
+
+ [Mariotti94/BigFloat: Arbitrary-Precision Floating Point Arithmetic Library](https://github.com/Mariotti94/BigFloat)
 
 ### 数据结构
 
@@ -87,7 +86,7 @@ Chudnovsky 公式位线性收敛，每算一项得到 15 个有效数字，所�
 
 同时考虑到中间项 $(-1)^k\frac{(6k)!(13591409+545140134k)}{(3k)!(k!)^3(640320)^{3k}}$ 很小，在小数部分中有很多 0，为了保证有足够得有效位数，中间项的小数位数 $d=30n$​。
 
-![preview](https://s2.loli.net/2022/03/26/Bu4PicVaUpHnZIL.png)
+![medium](https://s2.loli.net/2022/03/26/Bu4PicVaUpHnZIL.png)
 
 ### 计算顺序
 

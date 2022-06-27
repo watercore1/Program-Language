@@ -12,28 +12,27 @@ SOURCES += \
     main.cpp \
     mainwindow.cpp \
     miller_rabin.cpp \
-    src/CpuInfo.cpp \
-    src/Erat.cpp \
-    src/EratBig.cpp \
-    src/EratMedium.cpp \
-    src/EratSmall.cpp \
-    src/IteratorHelper.cpp \
-    src/LookupTables.cpp \
-    src/MemoryPool.cpp \
-    src/ParallelSieve.cpp \
-    src/PreSieve.cpp \
-    src/PrimeGenerator.cpp \
-    src/PrimeSieve.cpp \
-    src/PrintPrimes.cpp \
-    src/SievingPrimes.cpp \
-    src/api.cpp \
-    src/iterator.cpp \
-    src/nthPrime.cpp \
-    src/popcount.cpp
+    primesieve_cpp/CpuInfo.cpp \
+    primesieve_cpp/Erat.cpp \
+    primesieve_cpp/EratBig.cpp \
+    primesieve_cpp/EratMedium.cpp \
+    primesieve_cpp/EratSmall.cpp \
+    primesieve_cpp/IteratorHelper.cpp \
+    primesieve_cpp/LookupTables.cpp \
+    primesieve_cpp/MemoryPool.cpp \
+    primesieve_cpp/ParallelSieve.cpp \
+    primesieve_cpp/PreSieve.cpp \
+    primesieve_cpp/PrimeGenerator.cpp \
+    primesieve_cpp/PrimeSieve.cpp \
+    primesieve_cpp/PrintPrimes.cpp \
+    primesieve_cpp/SievingPrimes.cpp \
+    primesieve_cpp/api.cpp \
+    primesieve_cpp/iterator.cpp \
+    primesieve_cpp/nthPrime.cpp \
+    primesieve_cpp/popcount.cpp
 
 HEADERS += \
     mainwindow.h \
-    primesieve.hpp \
     primesieve/Bucket.hpp \
     primesieve/CpuInfo.hpp \
     primesieve/Erat.hpp \
