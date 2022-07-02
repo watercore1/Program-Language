@@ -1,14 +1,11 @@
 # 折线标注问题
 
-<center>
-    1900012476 夏罗生
-</center>
 
 文件介绍：
 
 - Point Polyline：几何类
 - PolylineWidget：用于绘制折线的控件
-- util：小函数
+- util：工具函数
 
 特点介绍：
 

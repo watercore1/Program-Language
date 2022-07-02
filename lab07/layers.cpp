@@ -160,6 +160,7 @@ void Layers::SetPointFeature(vector<Point>::iterator& itr,
   } else
     throw(CommandError::INVALID_SUB_SET_TYPE);
 }
+
 void Layers::SetPolylineFeature(vector<Polyline>::iterator& itr,
                                 istringstream& sub_command) {
   string set_type;
@@ -197,6 +198,7 @@ void Layers::SetPolylineFeature(vector<Polyline>::iterator& itr,
   } else
     throw(CommandError::INVALID_SUB_SET_TYPE);
 }
+
 void Layers::SetRingFeature(vector<Ring>::iterator& itr,
                             istringstream& sub_command) {
   string set_type;
@@ -238,6 +240,7 @@ void Layers::SetRingFeature(vector<Ring>::iterator& itr,
   } else
     throw(CommandError::INVALID_SUB_SET_TYPE);
 }
+
 void Layers::SetPolygonFeature(vector<Polygon>::iterator& itr,
                                istringstream& sub_command) {
   string set_type;
@@ -352,6 +355,7 @@ void Layers::JudgeGeoFeature(istringstream& sub_command, ofstream& ofs) {
     }
   }
 }
+
 
 void Layers::PrintToFile(ofstream& ofs) const {
   for (size_t i = 0; i < points_.size(); i++) {

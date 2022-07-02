@@ -1,4 +1,4 @@
-# Doc GIS
+# DOS GIS
 
 <center>
     1900012476 夏罗生
@@ -6,7 +6,7 @@
 
 ## 数据结构
 
-![DocGIS.drawio](C:/Users/watercore/Desktop/DocGIS.drawio.png)
+![DOSGIS.drawio](https://s2.loli.net/2022/06/27/lQGJpk1IFSqfmvj.png)
 
 环与折线的唯一区别在于多了一个 area 字段。
 
