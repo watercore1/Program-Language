@@ -26,6 +26,7 @@ Framework: [Qt5.15](https://doc.qt.io/qt-5.15/)
 * [Dos GIS](./lab07)
 * [OGR Geometry](./lab08)
 * [Run Length Code](./lab09)
+* [World Of Warcraft](./lab10)
 
 
 <!-- LICENSE -->
